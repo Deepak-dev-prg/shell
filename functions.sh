@@ -27,3 +27,6 @@ VALIDATE $? "Insalling maven"
 yum install git -y
 
 VALIDATE $? "Installing GIT"
+
+yum install mysql-community-server -y
+VALIDATE $? "Installing mysql"
