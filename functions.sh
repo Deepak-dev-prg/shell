@@ -10,7 +10,7 @@
      echo "You are root user"
 fi # fi means reverse of if, indicating condition end
 
- apt install mysql -y
+  apt install mysql-server -y 
 
  if [ $? -ne 0 ]
  then
